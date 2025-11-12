@@ -7,10 +7,10 @@ public class OrgTest {
 	@Test(groups = "smokeTest")
 	public void createOrgTest() {
 		
-		String URL = System.getProperty("url");
-		String BROWSER = System.getProperty("browser");
-		String USERNAME = System.getProperty("username");
-		String PASSWORD = System.getProperty("password");
+		String URL = System.getProperty("url","https://flipkart.com");
+		String BROWSER = System.getProperty("browser","Chrome");
+		String USERNAME = System.getProperty("username","admin");
+		String PASSWORD = System.getProperty("password","manager");
 		
 		System.out.println(URL);
 		System.out.println(BROWSER);
@@ -22,10 +22,10 @@ public class OrgTest {
 	@Test(groups = "regressionTest")
 	public void modifyOrgTest() {
 		
-		String URL = System.getProperty("url");
-		String BROWSER = System.getProperty("browser");
-		String USERNAME = System.getProperty("username");
-		String PASSWORD = System.getProperty("password");
+		String URL = System.getProperty("url","https://flipkart.com");
+		String BROWSER = System.getProperty("browser","Chrome");
+		String USERNAME = System.getProperty("username","admin");
+		String PASSWORD = System.getProperty("password","manager");
 		
 		System.out.println(URL);
 		System.out.println(BROWSER);

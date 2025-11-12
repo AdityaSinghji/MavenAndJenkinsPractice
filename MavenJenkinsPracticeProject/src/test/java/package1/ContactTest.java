@@ -8,10 +8,10 @@ public class ContactTest {
 	public void createcontactTest() {
 		
 		
-		String URL = System.getProperty("url");
-		String BROWSER = System.getProperty("browser");
-		String USERNAME = System.getProperty("username");
-		String PASSWORD = System.getProperty("password");
+		String URL = System.getProperty("url","https://flipkart.com");
+		String BROWSER = System.getProperty("browser","Chrome");
+		String USERNAME = System.getProperty("username","admin");
+		String PASSWORD = System.getProperty("password","manager");
 		
 		System.out.println(URL);
 		System.out.println(BROWSER);
@@ -23,10 +23,10 @@ public class ContactTest {
 	@Test(groups = "regressionTest")
 	public void modifycontactTest() {
 		
-		String URL = System.getProperty("url");
-		String BROWSER = System.getProperty("browser");
-		String USERNAME = System.getProperty("username");
-		String PASSWORD = System.getProperty("password");
+		String URL = System.getProperty("url","https://flipkart.com");
+		String BROWSER = System.getProperty("browser","Chrome");
+		String USERNAME = System.getProperty("username","admin");
+		String PASSWORD = System.getProperty("password","manager");
 		
 		System.out.println(URL);
 		System.out.println(BROWSER);
